@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings - Doctor Panel</title>
+  <link rel="stylesheet" href="styles/settings.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Doctor Panel</h2>
+    <ul>
+      <li><a href="doctor.html">Dashboard</a></li>
+      <li><a href="my-patients.html">My Patients</a></li>
+      <li><a href="schedule.html">Schedules</a></li>
+      <li class="active"><a href="settings.html">Settings</a></li>
+      <li><a href="index.html" class="logout">Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>Settings</h1>
+    </header>
+
+    <section class="settings">
+      <div class="settings-card">
+        <h3>Profile Information</h3>
+        <form>
+          <label>Full Name</label>
+          <input type="text" value="Dr. Brian Omondi">
+
+          <label>Email</label>
+          <input type="email" value="b.omondi@hospital.com">
+
+          <label>Specialization</label>
+          <input type="text" value="Cardiology">
+
+          <button type="submit">Save Changes</button>
+        </form>
+      </div>
+
+      <div class="settings-card">
+        <h3>Change Password</h3>
+        <form>
+          <label>Old Password</label>
+          <input type="password" placeholder="Enter old password">
+
+          <label>New Password</label>
+          <input type="password" placeholder="Enter new password">
+
+          <button type="submit" class="change-pass">Update Password</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
