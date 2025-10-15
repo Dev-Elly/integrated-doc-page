@@ -7,7 +7,7 @@ body {
 
     .sidebar {
       width: 230px;
-      background: linear-gradient(180deg, #0a3d62, #3c6382);
+      background: linear-gradient(180deg, #0d47a1, #1565c0);
       color: white;
       padding: 25px 15px;
       display: flex;
@@ -141,4 +141,5 @@ body {
     table tr:hover {
       background-color: #e9f2fa;
     }
+
 
