@@ -6,19 +6,16 @@ body {
     }
 
     .sidebar {
-      width: 230px;
+      width: 240px;
       background: linear-gradient(180deg, #0d47a1, #1565c0);
       color: white;
-      padding: 25px 15px;
+      padding: 20px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
     }
 
     .sidebar h2 {
       text-align: center;
-      font-size: 22px;
-      letter-spacing: 1px;
       margin-bottom: 30px;
     }
 
@@ -27,16 +24,16 @@ body {
     }
 
     .sidebar ul li {
-      margin: 18px 0;
+      padding: 15px 10px;
+      margin: 8px 0;
+      border-radius: 8px;
+      cursor: pointer;
+      trasnsition: background 0.3s;
     }
 
     .sidebar ul li a {
       text-decoration: none;
       color: white;
-      padding: 10px 15px;
-      border-radius: 8px;
-      display: block;
-      transition: background 0.3s ease;
     }
 
     .sidebar ul li a:hover,
@@ -146,6 +143,7 @@ body {
     table tr:hover {
       background-color: #e9f2fa;
     }
+
 
 
 
